@@ -18,4 +18,4 @@ Dirigiti nella cartella Backend/API e esegui il seguente comando:
 
 ## Avvertenze
 - Questa applicazione funziona solo su localhost, non è accesibile esternamente nemmeno nella stessa rete LAN.
-- Non è responsive 
+- Non è totalmente responsive 
