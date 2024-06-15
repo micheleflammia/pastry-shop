@@ -1,0 +1,52 @@
+@API_HostAddress = http://localhost:5130
+
+#GET ALL SWEETS
+
+GET {{API_HostAddress}}/sweets?available=true
+Accept: application/json
+
+###
+
+#GET ONE SWEET
+
+GET {{API_HostAddress}}/sweets/3a2b1c4d-5e6f-7890-1g2h-3i4j5k6l7m8n
+Accept: application/json
+
+###
+
+#CREATE A NEW SWEET
+
+POST {{API_HostAddress}}/sweets
+Accept: application/json
+Content-Type: application/json
+
+{
+    "nome": "cannolo siciliano Test",
+    "prezzo": 100,
+    "quantita": 1,
+    "data" : "2024-06-01",
+    "ingredienti": ["test", "test2"]
+}
+
+###
+
+#DELETE SWEET
+
+DELETE {{API_HostAddress}}/sweets/022e148f-4bcb-4d65-8489-3674ed925259
+Accept: application/json
+
+###
+
+#UPDATE SWEET
+
+PUT {{API_HostAddress}}/sweets/ba718381-1b7b-469a-a17e-92a6f5ebffcc
+Accept: application/json
+Content-Type: application/json
+
+{
+    "nome": "cannolo siciliano 25",
+    "prezzo": 100,
+    "quantita": 1,
+    "data" : "2024-06-12",
+    "ingredienti": ["test", "123"]
+}
