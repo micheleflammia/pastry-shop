@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Test Avellino\\SweetTest\\Backend\\API\\API.csproj",
+      "projectUniqueName": "E:\\Test Avellino\\Git\\pastry-shop\\Backend\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "E:\\Test Avellino\\SweetTest\\Backend\\API\\API.csproj",
+      "projectPath": "E:\\Test Avellino\\Git\\pastry-shop\\Backend\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Michele\\.nuget\\packages\\",
-      "outputPath": "E:\\Test Avellino\\SweetTest\\Backend\\API\\obj\\",
+      "outputPath": "E:\\Test Avellino\\Git\\pastry-shop\\Backend\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Michele\\AppData\\Roaming\\NuGet\\NuGet.Config",
