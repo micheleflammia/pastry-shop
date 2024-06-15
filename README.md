@@ -16,6 +16,6 @@ Ho usato .NET Core V8
 Dirigiti nella cartella Backend/API e esegui il seguente comando:
 1) dotnet run
 
-### Attenzione
+## Avvertenze
 - Questa applicazione funziona solo su localhost, non è accesibile esternamente nemmeno nella stessa rete LAN.
 - Non è responsive 
