@@ -162,7 +162,7 @@ const OfficePage = () => {
 
         if (window.confirm(`Sei sicuro di voler eliminare ${name}?`) === true) {
 
-            axios.delete(`${API_URL}/sweetss/${id}`)
+            axios.delete(`${API_URL}/sweets/${id}`)
                 .then((result) => {
                     if (result.status === 204) {
                         toast.success('Eliminato con successo')
